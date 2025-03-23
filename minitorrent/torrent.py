@@ -23,7 +23,5 @@ with open("../tests/file3.torrent","rb") as f:
 
 
 
-peer_id='-PC0001-' + ''.join([str(random.randint(0, 9)) for _ in range(12)])
 
-print(peer_id)
 pprint(od)
